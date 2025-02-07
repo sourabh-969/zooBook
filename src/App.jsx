@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+// use Hashrouter instead of BrowerRouter for Deploying GitHub.
+import { HashRouter as Router, Routes, Route } from "react-router-dom" 
 import { Provider } from "react-redux"
 import store from "./redux/store"
 import Navbar from "./components/Navbar"
@@ -31,4 +32,3 @@ function App() {
 }
 
 export default App
-
